@@ -9,14 +9,15 @@
 </template>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+// 1920设计稿
+html {
+  font-size: 5.2083333333333336vw;
+  padding: 0;
+  margin: 0;
+  body {
+    font-size: 0.16rem;
+  }
 }
-
 #nav {
   padding: 30px;
 
